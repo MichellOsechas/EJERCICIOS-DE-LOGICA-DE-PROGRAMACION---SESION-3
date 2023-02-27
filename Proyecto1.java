@@ -77,14 +77,14 @@ public class Proyecto1 {
         System.out.println("El area del triangulo es: + " + area);
         
 
-            //EJERCICIO 7 (ERROR)
-            Scanner sc = new Scanner(System.in);
-            System.out.print("Ingresa un numero: ");
-            int num = sc.nextInt();
-            num = math.sqrt();
-            System.out.println(num);
+        //EJERCICIO 7
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingresa un numero: ");
+        double num = sc.nextDouble();
+        num = Math.sqrt(num);
+        System.out.println(num);
             
-
+        
             //EJERCICIO 8 (ALGORITMO)
             Scanner sc = new Scanner(System.in);
             System.out.print("Ingresa el primer numero: ");
