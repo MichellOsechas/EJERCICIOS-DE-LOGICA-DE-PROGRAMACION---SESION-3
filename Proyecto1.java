@@ -111,7 +111,7 @@ public class Proyecto1 {
          System.out.println("El area del rectangulo es: + " + area);
          
 
-        int hipotenusa = sqrt(25); 
+        int hipotenusa = sqrt(30); 
         System.out.println(hipotenusa);
         */
     }
