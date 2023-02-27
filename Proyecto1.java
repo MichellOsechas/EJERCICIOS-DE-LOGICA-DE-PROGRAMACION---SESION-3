@@ -6,6 +6,8 @@ package com.mycompany.proyecto1;
 
 import java.util.Scanner;
 
+import javax.naming.spi.DirStateFactory.Result;
+
 /**
  *
  * @author admin
@@ -16,17 +18,17 @@ public class Proyecto1 {
         return new StringBuilder(str).reverse().toString();
     }
     public static void main(String[] args) {
-        /
-             //EJERCICIO 1 (ERROR)
-            Scanner sc = new Scanner(System.in);
-            System.out.print("Ingrese el valor del cateto 1: ");              
-            int cateto1 = sc.nextInt();
-            System.out.print("Ingrese el valor del cateto 2: ");
-            int cateto2 = sc.nextInt();
-            int hipotenusa = sqrt(cateto1^2 + cateto2^2);                            //(no lee "sqrt" antes del parentesis de los catetos - marca error)
-            System.out.println("La hipotenusa es: " + hipotenusa);
+        
+        /* 
+         //EJERCICIO 1
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingrese el valor del cateto 1: ");              
+        int cateto1 = sc.nextInt();
+        System.out.print("Ingrese el valor del cateto 2: ");
+        int cateto2 = sc.nextInt();
+        double hipotenusa = Math.sqrt((Math.pow(cateto1, 2 )) + (Math.pow(cateto2, 2 )));
+        System.out.println("La hipotenusa es: " + hipotenusa);
          
-
         
          //EJERCICIO 2
         Scanner sc = new Scanner(System.in);
