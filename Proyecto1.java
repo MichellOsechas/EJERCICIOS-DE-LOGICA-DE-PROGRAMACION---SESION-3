@@ -16,11 +16,10 @@ public class Proyecto1 {
 
     public static String reverse(String str) {
         return new StringBuilder(str).reverse().toString();
-    }
-    public static void main(String[] args) {
+        
         
         /* 
-         //EJERCICIO 1
+        //EJERCICIO 1
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el valor del cateto 1: ");              
         int cateto1 = sc.nextInt();
@@ -30,17 +29,17 @@ public class Proyecto1 {
         System.out.println("La hipotenusa es: " + hipotenusa);
          
         
-         //EJERCICIO 2
+        //EJERCICIO 2
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese un numero: ");
-        int num = sc.nextInt();                                    //(Se debe colocar corchete en "else"?)
+        int num = sc.nextInt();                                    
         if(num % 2 == 0)
         System.out.println("Su numero es par");
         else 
         System.out.println("Su numero es impar");
         
 
-         //EJERCICIO 3
+        //EJERCICIO 3
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el valor del angulo1: ");
         int angulo1 = sc.nextInt();
@@ -51,17 +50,17 @@ public class Proyecto1 {
          
 
         //EJERCICIO 4
-          Scanner sc = new Scanner(System.in);
-          System.out.print("Ingrese el primer numero: ");
-         double primernum = sc.nextDouble();
-          System.out.print("Ingrese el segundo numero: ");
-          double segundonum = sc.nextDouble();
-          System.out.print("Ingrese el tercer numero: ");
-          double tercernum = sc.nextDouble(); 
-          double promedio = (primernum + segundonum + tercernum) / 3; 
-         System.out.println("El promedio es: " + promedio);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingrese el primer numero: ");
+        double primernum = sc.nextDouble();
+        System.out.print("Ingrese el segundo numero: ");
+        double segundonum = sc.nextDouble();
+        System.out.print("Ingrese el tercer numero: ");
+        double tercernum = sc.nextDouble(); 
+        double promedio = (primernum + segundonum + tercernum) / 3; 
+        System.out.println("El promedio es: " + promedio);
 
-         //EJERCICIO 5
+        //EJERCICIO 5
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese su nombre: ");
         String nombre = sc.next ();
@@ -84,35 +83,31 @@ public class Proyecto1 {
         num = Math.sqrt(num);
         System.out.println(num);
             
-        
-            //EJERCICIO 8 (ALGORITMO)
-            Scanner sc = new Scanner(System.in);
-            System.out.print("Ingresa el primer numero: ");
-            int numero1 = sc.nextint();
-            System.out.print("Ingresea el segundo numero :");
-            int numero2 = sc.nextint();
-            int result = 
 
+        //EJERCICIO 8
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingresa el primer numero: ");
+        double a = sc.nextDouble();
+        System.out.print("Ingresea el segundo numero :");
+        double b = sc.nextDouble();   
+        
 
         //EJERCICIO 9
         Scanner sc = new Scanner(System.in);
-         System.out.print("Ingresa una palabra: ");
-         String palabra = sc.next();
-         System.out.print("La palabra invertida es: " + reverse(palabra));
+        System.out.print("Ingresa una palabra: ");
+        String palabra = sc.next();
+        System.out.print("La palabra invertida es: " + reverse(palabra));
         
 
-         //EJERCICIO 10
-         Scanner sc = new Scanner(System.in);
-         System.out.print("Ingresa la base del rectangulo: ");
-         double base = sc.nextDouble();
-         System.out.print("Ingrese la altura del rectangulo:");
-         double altura = sc.nextDouble();
-         double area = base * altura;
-         System.out.println("El area del rectangulo es: + " + area);
-         
+        //EJERCICIO 10
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingresa la base del rectangulo: ");
+        double base = sc.nextDouble();
+        System.out.print("Ingrese la altura del rectangulo:");
+        double altura = sc.nextDouble();
+        double area = base * altura;
+        System.out.println("El area del rectangulo es: + " + area);
 
-        int hipotenusa = sqrt(30); 
-        System.out.println(hipotenusa);
         */
     }
 }
