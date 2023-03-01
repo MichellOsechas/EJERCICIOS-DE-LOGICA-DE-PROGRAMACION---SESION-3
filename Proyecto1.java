@@ -12,13 +12,14 @@ import javax.naming.spi.DirStateFactory.Result;
  *
  * @author admin
  */
+
 public class Proyecto1 {
 
-    public static String reverse(String str) {
+        public static String reverse(String str) {
         return new StringBuilder(str).reverse().toString();
-        
-        
-        /* 
+    }
+    public static void main(String[] args) {
+      /* 
         //EJERCICIO 1
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el valor del cateto 1: ");              
@@ -82,16 +83,31 @@ public class Proyecto1 {
         double num = sc.nextDouble();
         num = Math.sqrt(num);
         System.out.println(num);
-            
+           
 
         //EJERCICIO 8
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingresa el primer numero: ");
-        double a = sc.nextDouble();
-        System.out.print("Ingresea el segundo numero :");
-        double b = sc.nextDouble();   
+        System.out.print("Ingresa el primer numero: ");
+        int num1 = sc.nextInt();
+        System.out.print("Ingresea el segundo numero: ");
+        int num2 = sc.nextInt();
+        int num;
+          if(num1>num2)
+             num = num1 % num2;
+          else 
+             num = num2 % num1;
+             if (num==0)
+        System.out.println("el MCD de (num1) y (num2) es: " + );
+        int result;
+             else if (num1 > num2);
+             result= num2 % num;
+             else (num2 > num1);
+             result = num1 % num;
+        System.out.println(result);
         
-
+        
+         /* 
+         
         //EJERCICIO 9
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingresa una palabra: ");
@@ -107,7 +123,6 @@ public class Proyecto1 {
         double altura = sc.nextDouble();
         double area = base * altura;
         System.out.println("El area del rectangulo es: + " + area);
-
         */
     }
 }
